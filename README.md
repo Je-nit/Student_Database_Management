@@ -1,10 +1,10 @@
 # Student_Database_Management
 Develop a database-like CLI (Command Line Interface) application for student records. The application should support:
 
-🎯 Objective
+#🎯 Objective
 Develop a database-like CLI (Command Line Interface) application for student records. The application should support: Adding, deleting, displaying, and editing student records. Searching, sorting, and saving data. File handling to persist data between sessions.
 
-🧑‍💻 User Interface
+#🧑‍💻 User Interface
 On execution (./dataBase), the program displays a menu with the following options:
 
 MENU
@@ -30,10 +30,10 @@ r/R : Reverse the display of records (in-memory only)
 
 q/Q : Quit the app
 
-📌 Requirements
+#📌 Requirements
 Record Structure: Each student record must include: Student ID (e.g., V24HE5A1) Name Date of Birth Percentages (Matriculation, Inter/Diploma, Graduation) Contact number Email ID Unique IDs: No duplicate student IDs allowed. File Persistence: Previously saved data should be reloaded when the app is restarted.
 
-📦 Deliverables
+#📦 Deliverables
 Modular Code: Use user-defined functions (e.g., add_record(), find_record()).
 
 Makefile: Include a makefile for compilation.
@@ -52,7 +52,7 @@ Makefile
 
 readme.txt
 
-🔧 Project Implementation Guidelines
+#🔧 Project Implementation Guidelines
 Version 1 Use structure pointers and dynamic memory allocation.
 
 No file handling.
@@ -61,7 +61,7 @@ Version 2 Use structure pointers and Singly Linked List (SLL).
 
 Include file handling for saving/loading data.
 
-💡 Suggestions
+#💡 Suggestions
 Use typedef, enum, and union where applicable.
 
 Create a separate header file to store all data structures and type definitions.
